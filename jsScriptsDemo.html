@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>JS Scripts Demo</title>
+</head>
+<body>
+	<div>Первое предложение последней (по дате) новости на <a href="https://www.kartoteka.ru">www.kartoteka.ru</a>:</div>
+	<div id="kartotekaNews"></div>
+	<div class="kart-phone">
+		<a href="tel:88001008555" class="phone_ks phone-bg__tel--default"><h2>8 800 100-85-55</h2></a>
+	</div>
+	<p>Код ниже можно использовать в консоли на сайте <a href="https://www.kartoteka.ru">www.kartoteka.ru</a> при условии того что не изменилось название класса.</p>
+	<pre>
+		<code>
+var phone = document.getElementsByClassName('kart-phone')[0];
+var dateTimeSpan = document.createElement('span')
+phone.appendChild(dateTimeSpan);
+var dt = new Date();
+function showTime(phone, dt, dateTimeSpan)
+{
+	dt.setSeconds( dt.getSeconds() + 1 );
+	dateTimeSpan.innerHTML = dt;
+	setTimeout(function() {showTime(phone, dt, dateTimeSpan);}, 1000);
+}
+showTime(phone, dt, dateTimeSpan);
+		</code>
+	</pre>
+<script src="scripts.js"></script>
+<script>
+window.addEventListener("load", function(){
+	getNews();
+	getShowTime();
+});
+</script>
+</body>
+</html>

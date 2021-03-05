@@ -1,0 +1,85 @@
+<MessageData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Id>4610237</Id>
+    <Number>4610237</Number>
+    <CaseNumber>А60-52850/2018 </CaseNumber>
+    <PublisherInfo PublisherType="ArbitrManager">
+        <ArbitrManager Id="1" FirstName="Лариса" MiddleName="Анатольевна" LastName="Касьянова" INN="123456789012" SNILS="1234567890" RegistryNumber="124">
+            <Sro SroId="14">
+                <SroName>Ассоциация "РО АУ"</SroName>
+                <SroRegistryNumber>123-12</SroRegistryNumber>
+            </Sro>
+            <CorrespondenceAddress>620000, Екатеринбург, пр. Ленина</CorrespondenceAddress>
+        </ArbitrManager>
+    </PublisherInfo>
+    <MessageInfo MessageType="Auction">
+        <Auction>
+            <Text>
+                Организатор торгов Финансовый управляющий Л.А. Касьянова, действующая на основании решения Арбитражного суда Свердловской области от 13.04.2017
+                года по делу № А12-12345/2018, сообщает о продаже имущества Сердюкова Андрея Петровича в форме повторных торгов на электронной площадке ООО
+                «ЮТендер» в сети Интернет на сайте www.utender.ru.
+            </Text>
+            <Date>2020-03-12T12:00:00</Date>
+            <TradeType>OpenedAuction</TradeType>
+            <PriceType>Public</PriceType>
+            <Application>
+                <TimeBegin>2020-01-31T13:00:00</TimeBegin>
+                <TimeEnd>2020-03-07T13:00:00</TimeEnd>
+            </Application>
+            <TradeSite>uTender</TradeSite>
+            <IdTradePlace>109</IdTradePlace>
+            <LotTable>
+                <AuctionLot>
+                    <Order>1</Order>
+                    <StartPrice>3129000</StartPrice>
+                    <Step>5.00</Step>
+                    <Advance>10</Advance>
+                    <Description>
+                        Лот № 1 - Комплекс имущества, расположенный по адресу: РФ, Свердловская обл., г.Алапаевск
+                    </Description>
+                    <AuctionStepUnit>Percent</AuctionStepUnit>
+                    <AdvanceStepUnit>Percent</AdvanceStepUnit>
+                </AuctionLot>
+                <AuctionLot>
+                    <Order>2</Order>
+                    <StartPrice>7560000</StartPrice>
+                    <Step>5.00</Step>
+                    <Advance>10</Advance>
+                    <Description>
+                        Комплекс имущества, расположенный в п. Нейвинский г. Алапаевск
+                    </Description>
+                    <AuctionStepUnit>Percent</AuctionStepUnit>
+                    <AdvanceStepUnit>Percent</AdvanceStepUnit>
+                    <ClassifierCollection>
+                        <AuctionLotClassifier>
+                            <Code>0101017</Code>
+                            <Name>Здания (помещения) жилые, не входящие в жилищный фонд</Name>
+                        </AuctionLotClassifier>
+                    </ClassifierCollection>
+                </AuctionLot>
+            </LotTable>
+            <Participants />
+            <AdditionalText>Размер задатка – 10 % от начальной цены лота. Реквизиты для перечисления задатка: Получатель: Сердюков Андрей Петрович</AdditionalText>
+        </Auction>
+    </MessageInfo>
+    <BankruptInfo BankruptType="Person" BankruptCategory="SimplePerson">
+        <BankruptPerson Id="114671" InsolventCategoryName="Физическое лицо" FirstName="АНДРЕЙ" MiddleName="ПЕТРОВИЧ" LastName="СЕРДЮКОВ" Address="123456, РОССИЯ, г Самара, ул Ленина, 12, 6">
+            <Birthplace>Россия, г Иваново</Birthplace>
+            <NameHistory>
+                <NameHistoryItem>СЕРДЮКОВ АНДРЕЙ ПЕТРОВИЧ</NameHistoryItem>
+            </NameHistory>
+        </BankruptPerson>
+    </BankruptInfo>
+    <PublishDate>2020-01-30T20:46:20.173</PublishDate>
+    <MessageURLList>
+        <MessageURL URLName="Договор о задатке.docx" URL="http://bankrot.fedresurs.ru/Download/file.fo?id=2644644&type=MessageDocument" DownloadSize="36674" />
+        <MessageURL URLName="Проект договора купли-продажи.doc" URL="http://bankrot.fedresurs.ru/Download/file.fo?id=2644680&type=MessageDocument" DownloadSize="48640" />
+    </MessageURLList>
+    <FileInfoList>
+        <FileInfo>
+            <Name>Договор о задатке.docx</Name>
+        </FileInfo>
+        <FileInfo>
+            <Name>Проект договора купли-продажи.doc</Name>
+        </FileInfo>
+    </FileInfoList>
+</MessageData>
