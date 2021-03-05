@@ -168,13 +168,13 @@ phone.appendChild(dateTimeSpan);
 var dt = new Date();
 function showTime(phone, dt, dateTimeSpan)
 {
-dt.setSeconds( dt.getSeconds() + 1 );
-var h = (dt.getHours() < 10 ? "0" : "") + dt.getHours();
-var m = (dt.getMinutes() < 10 ? "0" : "") + dt.getMinutes();
-var s = (dt.getSeconds() < 10 ? "0" : "") + dt.getSeconds();
-var timeString = h + ':' + m + ':' + s;
-dateTimeSpan.innerHTML = timeString;
-setTimeout(function() {showTime(phone, dt, dateTimeSpan);}, 1000);
+	dt.setSeconds( dt.getSeconds() + 1 );
+	var h = (dt.getHours() < 10 ? "0" : "") + dt.getHours();
+	var m = (dt.getMinutes() < 10 ? "0" : "") + dt.getMinutes();
+	var s = (dt.getSeconds() < 10 ? "0" : "") + dt.getSeconds();
+	var timeString = h + ':' + m + ':' + s;
+	dateTimeSpan.innerHTML = timeString;
+	setTimeout(function() {showTime(phone, dt, dateTimeSpan);}, 1000);
 }
 showTime(phone, dt, dateTimeSpan);
 ```
